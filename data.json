@@ -1,0 +1,57 @@
+{
+
+  "projects": [
+
+    {
+      "id": "0",
+      "project_name": "Random Quote Generator",
+      "description": "The Random Quote Generator is a simple quote generator that randomly chooses a quote from a list, along with various other information about the quote(who said it, what movie, year, etc.)",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://mhxander.github.io/TT-Project-1/",
+      "github_link": "https://github.com/mhxander/TT-Project-1",
+      "img_urls": ["/static/images/RandomQuoteImage1.png", "/static/images/RandomQuoteImage2.png", "/static/images/RandomQuoteImage3.png"]
+    },
+
+    {
+      "id": "1",
+      "project_name": "List Pagination and Filtering",
+      "description": "In this project, we had to take a list of various lengths, and divide it into pages of 10 people, and include the links to other pages.  Also, we set up a search box to search all names within the list.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://mhxander.github.io/Proj2/",
+      "github_link": "https://github.com/mhxander/Proj2",
+      "img_urls": ["/static/images/Pagination1.png", "/static/images/Pagination2.png", "/static/images/Pagination3.png"]
+    },
+
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "I was tasked with taking a static form and adding functionality to it using Javascript.  Using event handlers, regular expressions, and form validation, I was able to add interactivity and functionality to the form",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://mhxander.github.io/Project3-Form/",
+      "github_link": "https://github.com/mhxander/Project3-Form",
+      "img_urls": ["/static/images/Form1.png", "/static/images/Form2.png", "/static/images/Form3.png"]
+    },
+
+    {
+      "id": "3",
+      "project_name": "Phrase Hunter",
+      "description": "This project involved using object-oriented javascript to create Phrase Hunter, a 'hangman'-like game.  A random phrase was chosen from a list, the board was set up, and functionality was added to all buttons.  Through event handlers, I was able to change the state of various objects, to further the gameplay.  The score is kept, and after 5 missed letters, the game is over.",
+      "technologies": ["JavaScript", "Object-Oriented Javascript", "HTML", "CSS"],
+      "live_link": "https://mhxander.github.io/Proj4-OOP-Game/",
+      "github_link": "https://github.com/mhxander/Proj4-OOP-Game",
+      "img_urls": ["/static/images/Phrase1.png", "/static/images/Phrase2.png", "/static/images/Phrase3.png"]
+    },
+
+    {
+      "id": "4",
+      "project_name": "Employee Directory",
+      "description": "This application was set up to send out an API request to a generic API, and to retrieve a list of 'employees', who were then displayed on the screen.  If you click on an employee, it shows a module with more information about this employee.  Search is also included, the sort through the 12 employees.",
+      "technologies": ["JavaScript", "API Requests", "Git", "JSON", "HTML", "CSS"],
+      "live_link": "https://mhxander.github.io/MVH-Unit5-PublicAPIRequest/",
+      "github_link": "https://github.com/mhxander/MVH-Unit5-PublicAPIRequest",
+      "img_urls": ["/static/images/Directory1.png", "/static/images/Directory2.png", "/static/images/Directory3.png"]
+    }
+
+  ]
+
+}
