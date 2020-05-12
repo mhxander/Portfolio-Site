@@ -1,8 +1,8 @@
 extend layout.pug
 
 block content
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
-        h1= error.message 
-        h2= error.status
-        p= error.stack
+  a(href='/') ← Back
+  .error-content
+    h1.error-message= error.message 
+    h2.error-status= error.status
+    p.error-stack= error.stack

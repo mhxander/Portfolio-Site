@@ -1,7 +1,6 @@
+
 {
-
   "projects": [
-
     {
       "id": "0",
       "project_name": "Random Quote Generator",
@@ -9,7 +8,8 @@
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://mhxander.github.io/TT-Project-1/",
       "github_link": "https://github.com/mhxander/TT-Project-1",
-      "img_urls": ["/static/images/RandomQuote-thumb.png", "/static/images/RandomQuoteImage1.png", "/static/images/RandomQuoteImage2.png", "/static/images/RandomQuoteImage3.png"]
+      "img_urls": ["/static/images/RandomQuote-thumb.png", "/static/images/RandomQuoteImage1.png", "/static/images/RandomQuoteImage2.png", "/static/images/RandomQuoteImage3.png"],
+      "img_descriptions":["Thumbnail", "Quote Example 1", "Quote Example 2", "Quote Example 3"]
     },
 
     {
@@ -19,7 +19,8 @@
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://mhxander.github.io/Proj2/",
       "github_link": "https://github.com/mhxander/Proj2",
-      "img_urls": ["/static/images/Pagination-thumb.png", "/static/images/Pagination1.png", "/static/images/Pagination2.png", "/static/images/Pagination3.png"]
+      "img_urls": ["/static/images/Pagination-thumb.png", "/static/images/Pagination1.png", "/static/images/Pagination2.png", "/static/images/Pagination3.png"],
+      "img_descriptions":["Thumbnail", "Initially Generated List", "Divided into 10 students per page, with links to further pages", "Functional search criteria"]
     },
 
     {
@@ -29,7 +30,9 @@
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://mhxander.github.io/Project3-Form/",
       "github_link": "https://github.com/mhxander/Project3-Form",
-      "img_urls": ["/static/images/Form-thumb.png", "/static/images/Form1.png", "/static/images/Form2.png", "/static/images/Form3.png"]
+      "img_urls": ["/static/images/Form-thumb.png", "/static/images/Form1.png", "/static/images/Form2.png", "/static/images/Form3.png"],
+      "img_descriptions":["Thumbnail", "Collects attendee's information", "Changes color depending on shirt color chosen, and keeps track of total cost", "Functional validation of multiple fields, with relevant error messages"]
+
     },
 
     {
@@ -39,7 +42,9 @@
       "technologies": ["JavaScript", "Object-Oriented Javascript", "HTML", "CSS"],
       "live_link": "https://mhxander.github.io/Proj4-OOP-Game/",
       "github_link": "https://github.com/mhxander/Proj4-OOP-Game",
-      "img_urls": ["/static/images/Phrase-thumb.png", "/static/images/Phrase1.png", "/static/images/Phrase2.png", "/static/images/Phrase3.png"]
+      "img_urls": ["/static/images/Phrase-thumb.png", "/static/images/Phrase1.png", "/static/images/Phrase2.png", "/static/images/Phrase3.png"],
+      "img_descriptions":["Thumbnail", "Title Page", "Currently randomly choses from nine different phrase, and sets up the board", "Keeps track of which letters have been used, fills in correct letters, and counts down five 'hearts' before a game loss."]
+
     },
 
     {
@@ -49,7 +54,9 @@
       "technologies": ["JavaScript", "API Requests", "Git", "JSON", "HTML", "CSS"],
       "live_link": "https://mhxander.github.io/MVH-Unit5-PublicAPIRequest/",
       "github_link": "https://github.com/mhxander/MVH-Unit5-PublicAPIRequest",
-      "img_urls": ["/static/images/Directory-thumb.png", "/static/images/Directory1.png", "/static/images/Directory2.png", "/static/images/Directory3.png"]
+      "img_urls": ["/static/images/Directory-thumb.png", "/static/images/Directory1.png", "/static/images/Directory2.png", "/static/images/Directory3.png"],
+      "img_descriptions":["Thumbnail", "Requests 12 random employees from an api", "Searchable names", "Click on an individual employee to get more information"]
+
     }
 
   ]
