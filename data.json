@@ -55,7 +55,7 @@
       "live_link": "https://mhxander.github.io/MVH-Unit5-PublicAPIRequest/",
       "github_link": "https://github.com/mhxander/MVH-Unit5-PublicAPIRequest",
       "img_urls": ["/static/images/Directory-thumb.png", "/static/images/Directory1.png", "/static/images/Directory2.png", "/static/images/Directory3.png"],
-      "img_descriptions":["Thumbnail", "Requests 12 random employees from an api", "Searchable names", "Click on an individual employee to get more information"]
+      "img_descriptions":["Thumbnail", "Requests 12 random employees from an API", "Searchable names", "Click on an individual employee to get more information.  Click on 'Prev' or 'Next' moves to the previous or next employee, respectively, and clicking the 'X' closes the screen, to go back to the previous page."]
 
     }
 

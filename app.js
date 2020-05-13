@@ -1,5 +1,4 @@
 //Required frameworks for the site
-
 const express = require('express');
 const app = express();
 const data = require('./data.json');
@@ -15,12 +14,12 @@ app.get('/', (req, res) => {
     res.render('index', {data});
 });
 
-//Creates the 'about' page
+//Creates and renders the 'about' page
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//Creates each project page
+//Creates and renders each project page
 app.get('/project/:id', (req, res) => {
     data.projects.forEach(project => {
         if(req.params.id === project.id) {
@@ -33,7 +32,7 @@ app.get('/project/:id', (req, res) => {
 app.use((req, res, next) => {
     const err = new Error('The page you are trying to access does not exist!');
     err.status = 404;
-    console.log(`Oops, something went wrong`);
+    console.log(`Oops, something went wrong. Someone tried to access a page that does not exist.`);
     next(err);
 });
 
@@ -45,5 +44,5 @@ app.use((err, req, res, next) => {
 });
 
 
-//Communicates that the app is running on port 3000.
+//Communicates to the console that the app is running on port 3000.
 app.listen(3000, () => console.log('App listening on port 3000'));
